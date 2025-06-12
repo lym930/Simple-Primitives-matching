@@ -34,6 +34,10 @@ to generate SDF from meshes. You can also decide the resolution of SDF and wheth
 
 ### Algorithm Implementation
 Please run `main.py` to convert your SDF into a 3D model composed of multiple simple primitives. `main.py` will finally visualize the results and save a model file in `.csv` format, which stores the parameters of each primitive unit. When you have obtained this model file, you can run `vis_primitive.py` to view your 3D model more conveniently.
+
+The visualisation of this code results：
+
+![image]()
   
 ## Acknowledgements
 We would like to thank the developers of [Marching-Primitives](https://github.com/ChirikjianLab/Marching-Primitives) for their open-source contributions, which greatly supported the development of our work. Additionally, we would like to thank the following authors for their open-source contributions.
