@@ -37,7 +37,7 @@ Please run `main.py` to convert your SDF into a 3D model composed of multiple si
 
 The visualisation of this code results：
 
-![image]()
+![image](https://github.com/lym930/Simple-Primitives-matching/blob/main/data/result.png)
   
 ## Acknowledgements
 We would like to thank the developers of [Marching-Primitives](https://github.com/ChirikjianLab/Marching-Primitives) for their open-source contributions, which greatly supported the development of our work. Additionally, we would like to thank the following authors for their open-source contributions.
