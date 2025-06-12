@@ -18,7 +18,12 @@ Partial images and text in the dataset:
   PyQt5==5.15.10
   ```
 ## Implementation
+### Preparing mesh files
+Our algorithm accepts meshes in. obj format, so you may need to use implicit diffusion models (for example [Imagedream](https://github.com/bytedance/ImageDream)) or [3Ddemo](https://www.tripo3d.ai/) to generate 3D models with mesh format of obj.
 
+### Convert mesh into SDF
+
+  
 ## Acknowledgements
 We would like to thank the developers of [Marching-Primitives](https://github.com/ChirikjianLab/Marching-Primitives) for their open-source contributions, which greatly supported the development of our work. Additionally, we would like to thank the following authors for their open-source contributions.
 
