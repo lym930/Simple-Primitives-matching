@@ -4,9 +4,7 @@ This is the official code of Zero-shot 3D Model Synthesis via Implicit Diffusion
 ## Composite Dataset
 We provide the download link for our customized dataset, please refer to: [Baidu](https://pan.baidu.com/s/1mLVURfCBo7P3FUALvdeVOQ?pwd=fjxn)
 
-Partial images and text in the dataset:
 
-![image](https://github.com/lym930/Simple-Primitives-matching/blob/main/data/synthetic_dataset/synthetic_dataset.png)
 
 ## Dependency
   ```sh
@@ -34,10 +32,6 @@ to generate SDF from meshes. You can also decide the resolution of SDF and wheth
 
 ### Algorithm Implementation
 Please run `main.py` to convert your SDF into a 3D model composed of multiple simple primitives. `main.py` will finally visualize the results and save a model file in `.csv` format, which stores the parameters of each primitive unit. When you have obtained this model file, you can run `vis_primitive.py` to view your 3D model more conveniently.
-
-The visualisation of this code results：
-
-![image](https://github.com/lym930/Simple-Primitives-matching/blob/main/data/result.png)
   
 ## Acknowledgements
 We would like to thank the developers of [Marching-Primitives](https://github.com/ChirikjianLab/Marching-Primitives) for their open-source contributions, which greatly supported the development of our work. Additionally, we would like to thank the following authors for their open-source contributions.
